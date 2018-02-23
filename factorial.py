@@ -4,6 +4,7 @@ def factor(num):
         product = product * i
     return product
 
+#this is a comment
 print("Hello world")
 value = input("Please Enter a positive integer -> ")
 print("Factorial of " + value + " is " + str(factor(int(value))))
